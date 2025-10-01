@@ -2,7 +2,7 @@ import { app, BrowserWindow, Menu } from "electron";
 import path from "path";
 import os from "os";
 let dev = process.env.DEV_TOOL === 'open';
-let mainWindow = undefined;
+let mainWindow: BrowserWindow | undefined = undefined;
 
 function getWindow() {
     return mainWindow;
