@@ -1,9 +1,10 @@
 {
-  "name": "my-gemini-clone",
-  "productName": "my-gemini-clone",
+  "name": "gemini-client",
+  "type": "module",
+  "productName": "Gemini app",
   "version": "1.0.0",
   "description": "My Electron application description",
-  "main": "src/index.js",
+  "main": "src/app.ts",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
